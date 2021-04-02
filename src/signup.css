@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.mainBg{
+    padding: 5px 0 0 0;
+    text-align: center;
+    margin:0 auto 0 auto;
+}
+
+.formData{
+    margin: 0 auto 0 auto;
+    background-color: rgb(238,236,243);
+    border: #ffffff solid 5px;
+    border-radius: 15px;
+    padding: 30px 10px 20px 10px;
+    color:#525252;
+}
+
+label{
+    /* font-size: 1.5em; */
+    font-weight: bold;
+}
+input[type="text"]{
+    /* height: 1em; */
+    /* margin: 0 10px 0; */
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    /* width: 400px; */
+    /* font-size: 1.3em; */
+    padding-left: 10px;
+    /* background-color: transparent; */
+}
+
+input[type="text"]:focus{
+    outline:none;
+}
+
+
+
+.formData p {
+    text-align: left;
+    margin-top:0;
+    /* font-size: 14px; */
+    color:#525252;
+    font-family: 'Poppins', sans-serif;
+}
+
+.formData span{
+    color:red;
+}
+
+.formData .checkP{
+    font-size: 12px;
+}
+.formData .checkTxt{
+    text-decoration: underline;
+    color:#0bbf7d;
+}
+
+::placeholder{
+    font-size: 14px;
+}
+
+.forCheckbox{
+    text-align: right;
+}
+
+
+#formBtn {
+    background-color: #0bbf7d;
+    /* border: #eceaf2 3px solid; */
+    padding:20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    color:#ffffff;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+/* #resetBtn{
+    background-color: #0bbf7d;
+    padding:10px 30% 10px 30%;
+} */
+
+.submitClass{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.resetClass{
+    text-align: right;
+    font-family: 'Poppins', sans-serif;
+}
+
+.formHeader{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    color:#525252;
+}
+
+.closeBtn{
+    color:#525252;
+    font-family: 'Poppins', sans-serif;
+
+}
+.humMenu{
+    color:#525252;
+    font-family: 'Poppins', sans-serif;
+}
+
+p.errorText{
+    color:red;
+    font-size: 12px;
+}
+
+
+
+
+/* style of validity date span */
+span::after{
+    color:red;
+    font-weight: bold;
+}
+span::after {
+    padding-left: 5px;
+    }
+
+input:invalid + span::after {
+    content: '✖';
+    }
+
+input:valid+span::after {
+    content: '✓';
+    }
+
+/* end style of validity date span */
+
+@media only screen and (max-width: 700px) {
+    .formData{
+        /* margin: 0 auto 0 auto;
+        background-color: rgb(238,236,243);
+        border: #ffffff solid 5px;
+        border-radius: 15px; */
+        padding: 10px 0px 20px 0px;
+        /* color:#525252; */
+    }
+}

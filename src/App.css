@@ -1,0 +1,111 @@
+.appBg {
+  text-align: center;
+  margin:0 auto 0 auto;
+  /* background-image:url(./formbg.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed; */
+  /* padding:20px; */
+  /* background-position: bottom center; */
+
+  background-image:url(./formbg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding:30px;
+  /* background-position: bottom center; */
+  overflow-x: hidden;
+
+}
+
+/* .App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+} */
+
+.App-link {
+  color: #61dafb;
+}
+
+/* @keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+  
+} */
+
+nav{
+  padding: 5px;
+  background: linear-gradient(#a8edea, #fed6e3);
+}
+nav>ul{
+  list-style-type: none;
+  display: flex;
+}
+nav>ul>li{
+  flex: 1;
+  font-weight: bold;
+  font-size: 2em;
+  text-decoration: underline;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.new-game {
+  color: #453D84;
+}

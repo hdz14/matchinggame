@@ -1,0 +1,24 @@
+#backHome{
+    background-color: #0bbf7d;
+    padding:20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    color:#ffffff;
+    font-family: 'Poppins', sans-serif;
+}
+
+section{
+    margin: 0 auto 0 auto;
+    /* background-color: rgb(238,236,243);
+    border: #ffffff solid 5px;
+    border-radius: 15px; */
+    padding: 40px 20px 20px 20px;
+    /* color:#525252; */
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+section h2{
+    color:#ffffff;
+}
