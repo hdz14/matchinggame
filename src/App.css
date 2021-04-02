@@ -6,7 +6,24 @@
     /* padding:20px; */
     /* background-position: bottom center; */
 }
+.appBg {
+  text-align: center;
+  margin:0 auto 0 auto;
+  /* background-image:url(./formbg.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed; */
+  /* padding:20px; */
+  /* background-position: bottom center; */
 
+  background-image:url(./formbg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding:30px;
+  /* background-position: bottom center; */
+  overflow-x: hidden;
+
+}
 /* .App-logo {
   height: 40vmin;
   pointer-events: none;
