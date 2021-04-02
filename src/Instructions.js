@@ -14,7 +14,7 @@ class Instructions extends Component {
         e.preventDefault();
         // console.log("Thanks!");
         this.props.history.push({
-            pathname:'/thanks',
+            pathname:'/game',
             state:{
                 salutation:this.props.location.state.salutation,
                 first_name:this.props.location.state.first_name,
