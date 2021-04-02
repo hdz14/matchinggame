@@ -1,0 +1,68 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.rulesBg{
+    background-image:url(./img/formbg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    padding: 1rem;
+    position: relative;
+}
+
+.gameRulesContainer {
+    position: relative;
+}
+
+.gameRules {
+    position:absolute;
+}
+
+
+
+.gameRulesContent{
+    position:absolute;
+    top: 65px;
+    height: 480px;
+    padding: 1rem;
+    overflow-y: scroll;
+}
+
+.welcomeName h3{
+    font-weight: 700;
+    color: white;
+    position: relative;
+    top: 18px;
+}
+
+.gameRulesContent h3 {
+    /* position: relative; */
+    /* top: 100px; */
+    color:#525252;
+}
+
+.contestBox p{
+    color:#525252;
+    text-align: center;
+}
+
+.contestBox p.p1 {
+    /* padding: 70px 50px 20px 50px; */
+}
+
+.contestBox p.p2{
+    /* padding: 20px 50px 100px 50px; */
+}
+
+
+#gotoInstruction{
+    background-color: #0bbf7d;
+    padding:20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    color:#ffffff;
+    font-family: 'Poppins', sans-serif;
+}

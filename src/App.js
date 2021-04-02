@@ -8,6 +8,10 @@ import { render } from 'react-dom';
 
 // import Header from './Header';
 
+import Home from './Home';
+import Rules from './Rules';
+import Instructions from './Instructions';
+import PrivacyPolicy from './PrivacyPolicy';
 import Form from './SignupForm';
 import Thanks from './Thanks';
 import Game from './Game';
@@ -49,10 +53,13 @@ class App extends Component{
         </ul>
       </nav> */}
       <Switch>
+        <Route exact path="/" children={ <Home /> }/>
         <Route path="/thanks" children={<Thanks/>}/>
         <Route path="/form" children={<Form/>}/>
+        <Route path="/rules" children={<Rules/>}/>
+        <Route path="/instructions" children={<Instructions/>}/>
+        <Route path="/privacyPolicy" children={<PrivacyPolicy/>}/>
         <Route path="/game" children={<Game/>}/>
-
       </Switch>
     </div>
   </Router>

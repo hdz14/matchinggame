@@ -1,0 +1,44 @@
+.homeBg{
+    background-image:url(./img/home_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    padding: 1rem;
+    position: relative;
+}
+
+.homeCont {
+    position:relative;
+}
+
+
+.contestBoxContent {
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contestBoxContent h3 {
+    font-weight: 700;
+    color: white;
+    position: relative;
+    top: 18px;
+}
+
+.contestBoxContent p {
+    font-size: 14px;
+    position: relative;
+    top: calc(18px + 23px);
+    padding-left: 15px;
+    padding-right: 15px;
+    color:#525252;
+}
+
+
+.playBtn {
+    position: absolute;
+    top:calc(210px + 150px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
